@@ -17,6 +17,7 @@ const Navbar = () => {
         </div>
         <div className="user">
           <img src="https://placehold.co/250x250" alt="" />
+          <span>User</span>
         </div>
         <img src="/settings.svg" alt="" className="icon" />
       </div>
