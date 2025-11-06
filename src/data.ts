@@ -114,3 +114,199 @@ export const menu = [
         ],
     },
 ]
+
+export const topDealUsers = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    username: "Elva McDonald",
+    email: "elva@gmail.com",
+    amount: "3.668",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Linnie Nelson",
+    email: "linnie@gmail.com",
+    amount: "3.256",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Brent Reeves",
+    email: "brent@gmail.com",
+    amount: "2.998",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Adeline Watson",
+    email: "adeline@gmail.com",
+    amount: "2.512",
+  },
+  {
+    id: 5,
+    img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Juan Harrington",
+    email: "juan@gmail.com",
+    amount: "2.134",
+  },
+  {
+    id: 6,
+    img: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Augusta McGee",
+    email: "augusta@gmail.com",
+    amount: "1.932",
+  },
+  {
+    id: 7,
+    img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    username: "Angel Thomas",
+    email: "angel@gmail.com",
+    amount: "1.560",
+  },
+];
+
+export const chartBoxUser = {
+    color: "#8884d8",
+    icon: "/userIcon.svg",
+    title: "Total Users",
+    dataKey: "users",
+    number: "11.238",
+    percentage: 45,
+    chartData: [
+        { name: "Mon", users: 400 },
+        { name: "Tue", users: 600 },
+        { name: "Wed", users: 500 },
+        { name: "Thu", users: 700 },
+        { name: "Fri", users: 400 },
+        { name: "Sat", users: 500 },
+        { name: "Sun", users: 450 },
+    ],
+}
+
+export const chartBoxProduct = {
+    color: "#8884d8",
+    icon: "/userIcon.svg",
+    title: "Total Users",
+    dataKey: "users",
+    number: 100,
+    percentage: 20,
+    chartData: [
+        { name: "Mon", users: 400 },
+        { name: "Tue", users: 600 },
+        { name: "Wed", users: 500 },
+        { name: "Thu", users: 700 },
+        { name: "Fri", users: 400 },
+        { name: "Sat", users: 500 },
+        { name: "Sun", users: 450 },
+    ],
+}
+
+export const chartBoxRevenue = {
+    color: "#8884d8",
+    icon: "/userIcon.svg",
+    title: "Total Users",
+    dataKey: "users",
+    number: 100,
+    percentage: 20,
+    chartData: [
+        { name: "Mon", users: 400 },
+        { name: "Tue", users: 600 },
+        { name: "Wed", users: 500 },
+        { name: "Thu", users: 700 },
+        { name: "Fri", users: 400 },
+        { name: "Sat", users: 500 },
+        { name: "Sun", users: 450 },
+    ],
+}
+
+export const chartBoxConversion = {
+    color: "#8884d8",
+    icon: "/userIcon.svg",
+    title: "Total Users",
+    dataKey: "users",
+    number: 100,
+    percentage: 20,
+    chartData: [
+        { name: "Mon", users: 400 },
+        { name: "Tue", users: 600 },
+        { name: "Wed", users: 500 },
+        { name: "Thu", users: 700 },
+        { name: "Fri", users: 400 },
+        { name: "Sat", users: 500 },
+        { name: "Sun", users: 450 },
+    ],
+}
+
+export const barChartBoxRevenue = {
+  title: "Profit Earned",
+  color: "#8884d8",
+  dataKey: "profit",
+  chartData: [
+    {
+      name: "Sun",
+      profit: 4000,
+    },
+    {
+      name: "Mon",
+      profit: 3000,
+    },
+    {
+      name: "Tue",
+      profit: 2000,
+    },
+    {
+      name: "Wed",
+      profit: 2780,
+    },
+    {
+      name: "Thu",
+      profit: 1890,
+    },
+    {
+      name: "Fri",
+      profit: 2390,
+    },
+    {
+      name: "Sat",
+      profit: 3490,
+    },
+  ],
+};
+
+export const barChartBoxVisit = {
+  title: "Total Visit",
+  color: "#FF8042",
+  dataKey: "visit",
+  chartData: [
+    {
+      name: "Sun",
+      visit: 4000,
+    },
+    {
+      name: "Mon",
+      visit: 3000,
+    },
+    {
+      name: "Tue",
+      visit: 2000,
+    },
+    {
+      name: "Wed",
+      visit: 2780,
+    },
+    {
+      name: "Thu",
+      visit: 1890,
+    },
+    {
+      name: "Fri",
+      visit: 2390,
+    },
+    {
+      name: "Sat",
+      visit: 3490,
+    },
+  ],
+};
